@@ -7,7 +7,7 @@ import {
 export default function Hero() {
   return (
     <div className="grid grid-cols-12 gap-4 p-6">
-      <div className="col-span-12 md:col-span-8 flex p-8">
+      <div className="col-span-12 md:col-span-8 flex  justify-center items-center p-8">
         <div
           id="default-carousel"
           className="relative w-full"
@@ -52,7 +52,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="col-span-12 md:col-span-4 h-75 p-8">
+      <div className="col-span-12 md:col-span-4 p-8 mb-1 items-center justify-center flex">
         <div className="p-4 m-3 bg-white border-2 border-amber-200 w-full max-w-sm text-center shadow-lg rounded-lg">
           <h2 className="text-xl font-bold mb-2">
             Tiita Round End Table Mental

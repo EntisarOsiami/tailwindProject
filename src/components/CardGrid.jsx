@@ -38,7 +38,7 @@ let CardList = [{
 
 export default function CardGrid() {
   return (
-    <div className='container mx-auto p-6'>
+    <div className='container mx-auto p-6 flex flex-col justify-center'>
         <h1 className='border-b-2 border-b-gray-600 text-gray-900 font-bold text-2xl'>Best Sellers this the month</h1>
     <div className='grid grid-cols-12 gap-4 p-6 align-center'>
         {CardList.map((card) => (
