@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="bg-gray-800 py-6">
+    <div className="bg-black py-6">
       <div className="container mx-auto p-6">
         <div className="flex justify-between items-center">
           <div className="text-amber-400 text-lg font-bold">My Website</div>

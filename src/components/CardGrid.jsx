@@ -39,7 +39,7 @@ let CardList = [{
 export default function CardGrid() {
   return (
     <div className='container mx-auto p-6'>
-        <h1 className='border-b-2 border-b-gray-600 text-gray-900 font-bold text-2xl'>Top Categories of the month</h1>
+        <h1 className='border-b-2 border-b-gray-600 text-gray-900 font-bold text-2xl'>Best Sellers this the month</h1>
     <div className='grid grid-cols-12 gap-4 p-6 align-center'>
         {CardList.map((card) => (
             <div className='bg-white shadow-lg rounded-lg overflow-hidden gap-3 p-4 md:col-span-6 lg:col-span-4 sm: col-span-12 max-w[300px] hover:scale-105 transition-transform duration-300 ease-in-out'>

@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <header className="navbar flex  p-6 bg-amber-400 text-zinc-900 container text-center items-center justify-between mx-auto">
-      <nav className="flex w-full items-center justify-between text-center">
-        <ul className="lg:flex gap-4 md:flex pag-2 hidden items-center justify-center font-bold">
-          <a href="" className="">
+    <header className="navbar p-6 bg-amber-400 text-zinc-900 container mx-auto">
+      <nav className="flex w-full items-center justify-center">
+        <ul className="lg:flex md:flex hidden items-center justify-center font-bold space-x-6">
+          <a href="">
             <li>ALL CATEGORIES</li>
           </a>
           <a href="">
